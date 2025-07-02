@@ -1,5 +1,6 @@
 import React from 'react';
 import Registro from './Registro';
+import EditTodo from './EditTodo';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import TodoList from './TodoList';
@@ -24,6 +25,7 @@ function App() {
           <Route path="/todos" element={<TodoList />} />
           <Route path="/add" element={<AddTodo />} />
           <Route path="/registro" element={<Registro />} />
+          <Route path="/edit/:id" element={<EditTodo />} />
           {/* Ruta 404 */}
           <Route path="*" element={<main><p>¡No hay nada aquí!</p></main>} />
         </Routes>
