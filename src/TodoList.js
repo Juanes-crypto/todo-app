@@ -38,7 +38,7 @@ function TodoList() {
       });
 
       if (response.ok) {
-        // Actualizar estado local
+        // Actualizar estado local 
         setTodos(todos.map(todo =>
           todo.id === id
             ? { ...todo, completed: !completed }
