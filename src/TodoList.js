@@ -78,7 +78,9 @@ function TodoList() {
     return (
         <div>
             <h2>Mis Todos</h2>
-
+            <div style={{ marginBottom: '1em', color: '#888' }}>
+                [Aquí irán los filtros de tareas próximamente]
+            </div>
             <Link to="/add">+ Agregar Nuevo Todo</Link>
 
             {todos.length === 0 ? (
