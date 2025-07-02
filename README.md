@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Todo App Básico
+
+## Funcionalidades implementadas
+
+- Navegación entre páginas con React Router
+- Listar todos existentes desde una API (json-server)
+- Crear nuevos todos con validación básica de formulario
+- Marcar todos como completado o pendiente
+- Eliminar todos del listado
+- Estados de carga y mensajes de espera
+- Manejo básico de errores en peticiones
+- Separación de lógica en componentes (`TodoList`, `TodoItem`, `AddTodo`, etc.)
+- Ruta de registro de usuario (formulario de ejemplo)
+- Página 404 para rutas no encontradas
+
+## Cómo ejecutar
+
+1. Instala dependencias:  
+   `npm install`
+2. Inicia el servidor de la API:  
+   `npm run server`
+3. Inicia la app React:  
+   `npm start`
+
+---
+
+## Por implementar (reto)
+
+- Editar todos
+- Filtros de tareas
