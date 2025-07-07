@@ -1,14 +1,9 @@
 {
   "todos": [
     {
-      "id": 1,
-      "title": "Aprender React",
+      "id": "e197",
+      "title": "drc",
       "completed": false
-    },
-    {
-      "id": 2,
-      "title": "Hacer ejercicio",
-      "completed": true
     }
   ]
 }
